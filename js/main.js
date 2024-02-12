@@ -40,6 +40,6 @@ function changeButtonText() {
 
 function goToPage() {
     // Change the URL to the desired page
-    window.location.href = "/html/correct.html";
+    window.location.href = "correct.html";
 }
 typeEffect();
