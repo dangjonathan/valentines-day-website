@@ -1,0 +1,56 @@
+/* Default styles */
+body {
+    background-image: url("/images/valentine.jpg");
+    background-size: cover; /* Ensure the background image covers the entire screen */
+    background-attachment: fixed; /* Keep the background image fixed */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45vh; /* Full height of the viewport */
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px; /* Default font size */
+}
+
+/* Center the button horizontally */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px; /* Adjust margin-top as needed */
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: all 0.3s ease; /* Add transition for smooth resizing */
+    margin: 0 5px; /* Add margin between buttons */
+}
+
+#yes-btn {
+    background-color: aquamarine;
+}
+
+#no-btn {
+    background-color: rgb(241, 146, 146);
+    font-size: 16px; /* Fixed font size for the No button */
+    padding: 10px 20px; /* Fixed padding for the No button */
+}
+
+p {
+    text-align: center;
+    font-size: 36px; /* Default font size */
+}
+/* Media query for small screens */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+}
